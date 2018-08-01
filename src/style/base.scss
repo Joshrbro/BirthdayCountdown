@@ -1,13 +1,14 @@
 $color-blue-one: #5496e6;
 $color-blue-two: #518bde;
 $color-gray-one: #444;
+$color-yellow-one: #f7d754;
 
 .grid {
     height: 100vh;
     width: 100vw;
     display: grid;
     grid-template-rows: repeat(4, minmax(200px, 1fr));
-    grid-template-columns: repeat(11, minmax(150px, 1fr));
+    grid-template-columns: repeat(11, minmax(1fr, 1fr));
     
     &__title {
         grid-row: 1/2;
@@ -19,7 +20,7 @@ $color-gray-one: #444;
         font-family: 'Montserrat';
         font-weight: 300;
         line-height: 22px;
-        padding: 75px 75px;//keep an eye on this!!!
+        padding: 105px 75px;//keep an eye on this!!!
         
     }
 }
