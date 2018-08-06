@@ -19,9 +19,9 @@ export default class App extends Component {
       return [
         <Clock/>,
         changeDate('Change Date', () => this.setState({ active: false }))
-      ]
+      ];
     } else {
-      return Button('Generate Countdown', () => this.setState({ active: true }))
+      return Button('Generate Countdown', () => this.setState({ active: true }));
     }
   }.bind(this)
   
