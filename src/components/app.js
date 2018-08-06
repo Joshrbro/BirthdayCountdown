@@ -18,7 +18,7 @@ export default class App extends Component {
     if(this.state.active) {
       return [
         <Clock/>,
-        changeDate('Change Date', () => this.setState({ active: false }))
+        ChangeDate('Change Date', () => this.setState({ active: false }))
       ];
     } else {
       return Button('Generate Countdown', () => this.setState({ active: true }));
@@ -44,7 +44,6 @@ export default class App extends Component {
         
         <Picker/>
         { this.renderItems() }
-        <Clock/>
       </div>
     );
   }
