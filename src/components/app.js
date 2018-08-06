@@ -6,7 +6,7 @@ import Clock from './clock';
 export default class App extends Component {
   render() {
     
-    return <div className=""><Clock/><div>
+    // return <div className=""><Clock/><div>
     
     return (
       <div className="grid">
@@ -21,7 +21,7 @@ export default class App extends Component {
         <div className="grid__box-light-three"></div>
         
         <Picker/>
-        { Button('Generate Countdown') }
+        { Button('Generate Countdown', () => console.log('trying to handle generate')) }
         <Clock/>
       </div>
     );
