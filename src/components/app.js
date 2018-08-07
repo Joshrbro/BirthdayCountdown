@@ -3,6 +3,7 @@ import Picker from './picker';
 import Button from './button';
 import Clock from './clock';
 import ChangeDate from './changeDate';
+import LargeText from './largeText';
 
 export default class App extends Component {
   
