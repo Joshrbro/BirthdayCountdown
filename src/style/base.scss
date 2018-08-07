@@ -1,7 +1,7 @@
 $color-blue-one: #5496e6;
 $color-blue-two: #518bde;
 $color-gray-one: #444;
-$color-gray-two: #E6E6E6
+$color-gray-two: #E6E6E6;
 $color-yellow-one: #f7d754;
 $font-roboto: "Roboto Condensed";
 $font-mont: "montserrat";
@@ -27,7 +27,7 @@ $font-mont: "montserrat";
         
     }
     
-    $__remaining {
+    &__remaining {
         grid-row: 4/-1;
         grid-column: 1/-1;
         text-align: center;
