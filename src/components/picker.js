@@ -9,12 +9,12 @@ class Picker extends Component {
      
     handleChange = function(date) {
         this.props.callback(date);
-    }.bind(this)
+    }.bind(this);
  
     render() {
         return (
             <div className="picker">
-                <DatePicker selected={this.state.startDate} onChange={this.handleChange} />
+                <DatePicker selected={this.props.startDate} onChange={this.handleChange} />
             </div>
         );
     }
